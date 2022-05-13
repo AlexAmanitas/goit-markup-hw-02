@@ -1,0 +1,14 @@
+ body {
+ 	font-family: 'Raleway', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
+	color: var(--font-color);
+ }
+
+ ul {list-style-type: none;}
+
+ :root {
+ 	--font-color: #212121; /*var(--font-color)*/
+	--logo-color:#2196F3; /*var(--logo-color)*/
+	--footer-color:#2F303A; /*var(--footer-color)*/
+	--background-color:#E5E5E5; /*var(--background-color)*/
+ }
