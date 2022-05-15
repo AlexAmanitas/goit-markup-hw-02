@@ -97,7 +97,8 @@
 	color: var(--link-color);
 }
 
-.header-link-tel:hover, .header-link-tel:focus {
+.header-link-tel:hover, 
+.header-link-tel:focus {
 	color: var(--accent-color);
 }
 
@@ -127,7 +128,8 @@
 	cursor: pointer;	
 }
  
-.hero-button:hover, .hero-button:focus{} 
+.hero-button:hover, 
+.hero-button:focus{} 
 
 .hang{}
 
@@ -281,29 +283,34 @@
 	cursor: pointer;
 }
 
-.portfolio-button-whole:hover, .portfolio-button-whole:focus {
+.portfolio-button-whole:hover, 
+.portfolio-button-whole:focus {
 	background-color: var(--accent-color);
 	color: var(--white);
 }
 
-.portfolio-button-web:hover, .portfolio-button-web:focus {
+.portfolio-button-web:hover, 
+.portfolio-button-web:focus {
 	background-color: var(--accent-color);
 	color: var(--white);
 }
 
 
-.portfolio-button-app:hover, .portfolio-button-app:focus {
+.portfolio-button-app:hover, 
+.portfolio-button-app:focus {
 	background-color: var(--accent-color);
 	color: var(--white);
 }
 
 
-.portfolio-button-design:hover, .portfolio-button-design:focus {
+.portfolio-button-design:hover, 
+.portfolio-button-design:focus {
 	background-color: var(--accent-color);
 	color: var(--white);
 }
 
-.portfolio-button-market:hover, .portfolio-button-market:focus {
+.portfolio-button-market:hover, 
+.portfolio-button-market:focus {
 	background-color: var(--accent-color);
 	color: var(--white);
 }
