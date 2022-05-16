@@ -48,7 +48,7 @@
 	color: var(--black);
 }
 
-.logo-studio-footer{
+.logo-studio-footer {
 	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 26px;
@@ -59,12 +59,18 @@
 
 .nav {}
 
+.nav-link {
+	list-style-type: none;
+}
+
 .nav-link a {
 	color: var(--font-color);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+
+	text-decoration: none;
 }
 
 .nav-link a:hover, .nav-link a:focus {
@@ -83,6 +89,8 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--link-color);
+
+	text-decoration: none;
 }
 
 .header-link-mail:hover, .header-link-mail:focus {
@@ -95,6 +103,8 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--link-color);
+
+	text-decoration: none;
 }
 
 .header-link-tel:hover, 
@@ -133,7 +143,11 @@
 
 .hang{}
 
-.hang h3 {
+.hang ul {
+	list-style-type: none;
+}
+
+.hang-title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -141,7 +155,7 @@
 	text-transform: uppercase;
 }
 
-.hang p {
+.hang-desc {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
@@ -151,7 +165,11 @@
 
 .activity {}
 
-.activity h2 {
+.activity ul {
+	list-style-type: none;
+}
+
+.activity-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
@@ -161,7 +179,11 @@
 
 .team {}
 
-.team h2 {
+.team ul{
+  list-style-type: none;
+}
+
+.team-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
@@ -169,14 +191,14 @@
 	letter-spacing: 0.03em;
 }
 
-.team h3 {
+.team-name {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.2;
 	letter-spacing: 0.03em;
 }
 
-.team p {
+.team-position {
 	font-size: 16px;
 	line-height: 1.9;
 	letter-spacing: 0.03em;
@@ -203,6 +225,8 @@
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: var(--footer-link-color);
+
+	text-decoration: none;
 }
 
 .footer-link-tel {
@@ -211,6 +235,8 @@
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: var(--footer-link-color);
+
+	text-decoration: none;
 }
 
 .portfolio-button-bloc {}
@@ -318,9 +344,15 @@
 
 .portfolio-projects-bloc {}
 
-.portfolio-project-item {}
+.portfolio-projects-bloc ul {
+	list-style-type: none;
+}
 
-.portfolio-project-item h3 {
+.portfolio-project-item {
+	text-decoration: none;
+}
+
+.project-item-name {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2.0;
@@ -328,7 +360,7 @@
 	color: var(--font-color);
 }
 
-.portfolio-project-item p {
+.project-item-attribute {
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;
